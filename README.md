@@ -32,7 +32,7 @@ The app will display top gains and losses of the day and allow you to display th
 
 | Day | Tasks | Status |
 
-| December 1 | api selection / Wireframes / Timeframes/ Compleat project discription| compleate |
+| December 1 | api selection / Wireframes / Timefraes/ Compleat project discription| compleate |
 
 | December 2 | connecting airTable to api | core application structure |MVP | Incomplete |
 
@@ -50,20 +50,20 @@ The app will display top gains and losses of the day and allow you to display th
 
 ## Timeframes
 
-| Component                   | Priority | Estimated Time | Time Invested |
-| --------------------------- | :------: | :------------: | :-----------: |
-| Working with API            |    H     |      3hrs      |               |
-| api selection               |    M     |       2        |               |
-| Wireframes                  |    L     |       1        |               |
-| Timeframes                  |    M     |       1        |               |
-| composing api data airTable |    H     |       2        |               |
-| Project Approval            |    L     |       8        |               |
-| core application structure  |    H     |       4        |               |
-| MVP                         |    H     |       2        |               |
-| actual code                 |    H     |       8        |               |
-| Initial Clickable Model     |    H     |       2        |               |
-| Presentations               |    M     |     10min      |               |
-| extra steps                 |          |                |
+| Component | Priority | Estimated Time | Time Invested |
+| --------- | :------: | :------------: | :-----------: |
+
+| api selection | M | 2hrs | 2 |
+| Wireframes | L | 1hrs | 1 |
+| Timeframes | M | 1hrs | 1 |
+| composing api data airTable | H | 2hrs | |
+| Project Approval | L | 8hrs | |
+| core application structure | H | 4hrs | |
+| MVP | H | 2hrs | |
+| actual code | H | 8hrs | |
+| Initial Clickable Model | H | 2hrs | |
+| Presentations | M | 5min | |
+| extra steps | | | |
 
 ## Code Snippet
 
