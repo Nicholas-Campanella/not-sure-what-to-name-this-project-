@@ -1,7 +1,8 @@
 async function marketData() {
+  const url = "http://rapidapi.com/deb7bea3cbmshfb81420f26eba26p1c5f3ajsn4d19a6a13a90";
   try {
-    const response = await axios.get();
-    console.log(response);
+    const res = await axios.get(url);
+    console.log(res);
   } catch (error) {
     console.log(error);
   }
