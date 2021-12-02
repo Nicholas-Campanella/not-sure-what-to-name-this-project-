@@ -1,3 +1,3 @@
 import useState from reat 
-import 
+import fetchData from "./index.js"
 const [marketData, setMarketData] = useState([])

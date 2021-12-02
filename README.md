@@ -14,27 +14,21 @@ The app will display the vichels that the developer has own and the user will ha
 
 ## Wireframes
 
-("https://whimsical.com/dip-your-toes-in-the-stock-market-QkNL4Sx1cYi5C4VDkCYUJz")
+("https://whimsical.com/traffic-jam-QkNL4Sx1cYi5C4VDkCYUJz")
 
 ### MVP/PostMVP
 
 #### MVP
 
--tab with the main indexs
--section with top losses and top gainers
--sherch bar that when interracted will display:
--componies stock price and % gain/lose
--graph of stock
--componies earnes to date
--and a dropdown bar with recent news artical with
+-conect to air table api
 
 ## Project Schedule
 
 | Day | Tasks | Status |
 
-| December 1 | api selection / Wireframes / Timefraes/ Compleat project discription| compleate |
+| December 1 | api selection / Wireframes / Timefraes | compleate |
 
-| December 2 | connecting airTable to api | core application structure |MVP | Incomplete |
+| December 2 | connecting airTable to api | core app structure |project appoval| Incomplete |
 
 | December 3 | actual code | Incomplete |
 
@@ -68,5 +62,3 @@ The app will display the vichels that the developer has own and the user will ha
 ## Code Snippet
 
 ## Change Log
-
-The scope of the my project change form being a conparision statment of two N.E.O. to an organized list of data pulled from an array.
