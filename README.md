@@ -1,29 +1,40 @@
 # Project Overview
 
-ed your Developer Application.
-
 ## Project Name
 
-Near earth Objects From Outer Space
+Dip into the Stock Market
 
 ## Project Description
 
+The app will display top gains and losses of the day and allow you to display the data of the stock you chosesn. Will also display news articls of the seached stock
+
 ## API and Data Sample
 
+("https://rapidapi.com/apidojo/api/yh-finance/")
+
 ## Wireframes
+
+("https://whimsical.com/dip-your-toes-in-the-stock-market-QkNL4Sx1cYi5C4VDkCYUJz")
 
 ### MVP/PostMVP
 
 #### MVP
 
+-tab with the main indexs
+-section with top losses and top gainers
+-sherch bar that when interracted will display:
+-componies stock price and % gain/lose
+-graph of stock
+-componies earnes to date
+-and a dropdown bar with recent news artical with
+
 ## Project Schedule
 
 | Day | Tasks | Status |
 
-| December 1 | api selection / Wireframes / Timeframes/ Compleat project discription| Complete |
+| December 1 | api selection / Wireframes / Timeframes/ Compleat project discription| compleate |
 
-| December 2 | core application structure (HTML, CSS, etc.)/
-MVP | Incomplete |
+| December 2 | connecting airTable to api | core application structure |MVP | Incomplete |
 
 | December 3 | actual code | Incomplete |
 
@@ -37,26 +48,22 @@ MVP | Incomplete |
 
 ## Priority Matrix
 
-(https://whimsical.com/JJxoTSL4jAg9cqi3S1NNX4)
-
 ## Timeframes
 
-| Component                  | Priority | Estimated Time | Time Invested | Actual Time |
-| -------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form                |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API           |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total                      |    H     |      6hrs      |     5hrs      |    5hrs     |
-| api selection              |    M     |       2        |       5       |
-| Wireframes                 |    L     |       1        |       1       |
-| Timeframes                 |    M     |       1        |      1/2      |
-| Project Approval           |    H     |       8        |       8       |
-| core application structure |    H     |       2        |       1       |
-| MVP                        |    H     |       2        |       2       |
-| actual code                |    H     |       8        |       6       |
-| Initial Clickable Model    |    H     |       2        |       2       |
-| Presentations              |    M     |     10min      |               |
-| extra steps                |          |                |
-|                            |          |                |
+| Component                   | Priority | Estimated Time | Time Invested |
+| --------------------------- | :------: | :------------: | :-----------: |
+| Working with API            |    H     |      3hrs      |               |
+| api selection               |    M     |       2        |               |
+| Wireframes                  |    L     |       1        |               |
+| Timeframes                  |    M     |       1        |               |
+| composing api data airTable |    H     |       2        |               |
+| Project Approval            |    L     |       8        |               |
+| core application structure  |    H     |       4        |               |
+| MVP                         |    H     |       2        |               |
+| actual code                 |    H     |       8        |               |
+| Initial Clickable Model     |    H     |       2        |               |
+| Presentations               |    M     |     10min      |               |
+| extra steps                 |          |                |
 
 ## Code Snippet
 
