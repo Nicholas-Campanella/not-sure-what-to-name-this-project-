@@ -2,15 +2,15 @@
 
 ## Project Name
 
-Dip into the Stock Market
+Trafic Jam
 
 ## Project Description
 
-The app will display top gains and losses of the day and allow you to display the data of the stock you chosesn. Will also display news articls of the seached stock
+The app will display the vichels that the developer has own and the user will have to guess is the vehical is sold totaled or still owned
 
 ## API and Data Sample
 
-("https://rapidapi.com/apidojo/api/yh-finance/")
+("https://airtable.com/appxLxkK1FdeF1Dgo/tbl2eyrfSyrjHRGQC/viw8bkOrdSazHx8P5?blocks=hide")
 
 ## Wireframes
 

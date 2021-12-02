@@ -1,5 +1,6 @@
-async function marketData() {
-  const url = "http://rapidapi.com/deb7bea3cbmshfb81420f26eba26p1c5f3ajsn4d19a6a13a90";
+
+async function fetchData() {
+  const url = "https://airtable.com/appxLxkK1FdeF1Dgo/tbl2eyrfSyrjHRGQC/viw8bkOrdSazHx8P5?blocks=hide";
   try {
     const res = await axios.get(url);
     console.log(res);
