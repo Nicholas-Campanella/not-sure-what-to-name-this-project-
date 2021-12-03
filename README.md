@@ -10,6 +10,8 @@ The app will display the vichels that the developer has own and the user will ha
 
 ## Componet Hierarchy
 
+("https://whimsical.com/component-hierarchy-UcHWCd8g9nhecTjQ9iVgZx")
+
 ## API and Data Sample az cdazx
 
 ("https://airtable.com/appxLxkK1FdeF1Dgo/tbl2eyrfSyrjHRGQC/viw8bkOrdSazHx8P5?blocks=hide")
