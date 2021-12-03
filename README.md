@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Trafic Jam
+Traffic Jam
 
 ## Project Description
 
@@ -36,13 +36,11 @@ The app will display the vichels that the developer has own and the user will ha
 
 | Day | Tasks | Status |
 
-| December 1 | api selection / Wireframes / Timefraes | compleate |
+| December 1 |Wireframes|Timefraes|compleate |
 
-| December 2 | connecting airTable to api | core app structure |project appoval| Incomplete |
+| December 2 |composing API|app structure|project appoval|Incomplete|
 
-| December 3 | actual code |building componets|css|html| Incomplete |
-
-| December 4 || Incomplete |
+| December 3-4| building componets|css|html| Incomplete |
 
 | December 5 |Initial Clickable Model | | Incomplete |
 
@@ -52,25 +50,31 @@ The app will display the vichels that the developer has own and the user will ha
 
 ## Priority Matrix
 
-## Timeframes
+("https://whimsical.com/project-2-priority-matrix-WYwKE75co2D1JyEjhYujy2")
 
-add
+## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested |
 | --------- | :------: | :------------: | :-----------: |
 
-| api selection | M | 2hrs | 2 |
 | Wireframes | L | 1hrs | 1 |
-| composing api data airTable | H | 2hrs | |
-| Project Approval | L | 8hrs | |
+| Componet Hiarc | L | 30 min | 20min |
+| composing api | H | 2hrs | 1hrs |
+| piroity matrix | L | 1hrs | 1hrs |
 | core application structure | H | 4hrs | |
+| Project Approval | L | 8hrs | |
 | MVP | H | 2hrs | |
-| actual code|form |html |css| H | 8hrs | |
+| form | M | 2hrs | |
+| html | H | 3hrs | |
 | Initial Clickable Model | H | 2hrs | |
+| css | H | 6hrs | |
 | Presentations | M | 5min | |
-| building mutible functions| | | | |
 
 ## Code Snippet
+
+```
+
+```
 
 ## S.W.O.T.
 
