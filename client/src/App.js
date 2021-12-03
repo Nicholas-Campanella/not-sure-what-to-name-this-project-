@@ -6,7 +6,7 @@ import addCarData from './From'
 import axios from 'axios' 
 
 
-fetchData()
+
 
 function App() {
   return (
