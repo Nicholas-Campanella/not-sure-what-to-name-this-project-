@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import nav from './Navbar'
+import foot from './Footer'
+import addCarData from './From'
+import axios from 'axios' 
+
+
+fetchData()
 
 function App() {
   return (
