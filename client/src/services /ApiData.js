@@ -7,4 +7,4 @@ async function fetchData() {
     console.log(error);
   }
 }
-fetchData()
+fetchData();

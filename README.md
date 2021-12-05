@@ -12,9 +12,28 @@ The app will display the vichels that the developer has own and the user will ha
 
 ("https://whimsical.com/component-hierarchy-UcHWCd8g9nhecTjQ9iVgZx")
 
-## API and Data Sample az cdazx
+## API and Data Sample
 
 ("https://airtable.com/appxLxkK1FdeF1Dgo/tbl2eyrfSyrjHRGQC/viw8bkOrdSazHx8P5?blocks=hide")
+
+```
+"records": [
+        {
+            "id": "recgPIHqhOTmEBqxf",
+            "fields": {
+                "make": "Ford ",
+                "year ": "1993",
+                "Name": "F-150",
+                "status": "Sold ",
+                "model ": "F-150 Flare Side",
+                "image ": [
+                    {
+                        "id": "attGrMDvNBUq1nUl1",
+                        "width": 749,
+                        "height": 753,
+                        "url": "https://dl.airtable.com/.attachments/b0a362b874b87ea54d866e359f208a2f/f33b411f/IMG_2046.jpg",
+
+```
 
 ## Template
 
@@ -61,12 +80,15 @@ The app will display the vichels that the developer has own and the user will ha
 | composing api | H | 2hrs | 1hrs |
 | piroity matrix | L | 1hrs | 1hrs |
 | core application structure | H | 4hrs | |
-| Project Approval | L | 8hrs | |
+| Project Approval | L | 30min | |
 | MVP | H | 2hrs | |
+| post car request | M | 2hrs| |
+| build game | H | 3hrs | |  
 | form | M | 2hrs | |
-| html | H | 3hrs | |
+| function componets | H | 3hrs | |
 | Initial Clickable Model | H | 2hrs | |
 | css | H | 6hrs | |
+|Post MVP | L | 4hrs | |
 | Presentations | M | 5min | |
 
 ## Code Snippet
@@ -77,12 +99,12 @@ The app will display the vichels that the developer has own and the user will ha
 
 ## S.W.O.T.
 
-Strengths:
+Strengths: willingness to fail
 
 Weaknesses:CSS,HTML,JS,React
 
-Oppotunities: the fact that I will be able to work on the areas im week on
+Oppotunities: the fact that I will be able to work on the areas Im week in
 
-Threats:having: a project that isn't appiling
+Threats:having: a project that isn't appiling, taking to much on task, lossing trak of time.
 
 ## Change Log

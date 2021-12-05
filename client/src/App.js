@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import nav from './Navbar'
-import foot from './Footer'
+import Navbar from './Navbar'
+import Footer from './Footer'
 import addCarData from './From'
 import axios from 'axios' 
 
@@ -28,5 +28,5 @@ function App() {
     </div>
   );
 }
-
+console.log()
 export default App;
