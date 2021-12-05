@@ -3,11 +3,13 @@ import React from 'react'
 
 class Footer extends React.Component{
   render() {
-    return <p>Git Hub</p>
+    return(
+    <div>
+      <p>Git Hub</p>
+      <p>LinkedIn</p>
+      </div>
+    )
   }
-  render() {
-    return <p>linkedIn</p>
-  }
- 
+  
 }
 export default Footer;

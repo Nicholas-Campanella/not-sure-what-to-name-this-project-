@@ -1,6 +1,6 @@
 import React from 'react'
 
-function addCarData() {
+function AddCarData() {
   return (
     <form>
       <input type='text' placeholder='Make'/>
@@ -12,3 +12,5 @@ function addCarData() {
     </form>
   );
 }
+
+export default AddCarData
