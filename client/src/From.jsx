@@ -7,8 +7,8 @@ function addCarData() {
       <input type='text' placeholder='Model'/>
       <input type='text' placeholder='Year'/>
       <input type="text" placeholer='Status'/>
-      <input type='url' placeholder='Image'/>
-      <input type= 'button' placeholder='upload'/>
+      <input type='image' placeholder='Image'/>
+      <input type= 'button' placeholder='Upload'/>
     </form>
   );
 }

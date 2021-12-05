@@ -4,10 +4,9 @@ import React from 'react'
 class Footer extends React.Component{
   render() {
     return <p>Git Hub</p>
-  
   }
   render() {
-    return <p>linkIn</p>
+    return <p>linkedIn</p>
   }
  
 }
