@@ -7,7 +7,7 @@ function Navbar1 () {
       
       <nav>
           <ul>
-            <li>Back to Homepage</li>
+            <li>Home</li>
             <li>Check out the Cars</li>
       </ul>
       </nav>

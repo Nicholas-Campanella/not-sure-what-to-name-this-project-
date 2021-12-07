@@ -10,18 +10,6 @@ import LoadCarData from './carIndex'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './Homepage'
 
- 
-// const base = process.env.REACT_APP_AIRTABLE_BASE
-// const key = process.env.REACT_APP_AIRTABLE_KEY
-// const config = {
-//   headers: {
-//     Authrization: `Bearer keyLyNsVvtpTEUADg` 
-//   }
-// }
-
-
-
-
 
 function App() {
   
@@ -30,13 +18,6 @@ function App() {
       const url = `https://api.airtable.com/v0/appxLxkK1FdeF1Dgo/cartable?api_key=keyLyNsVvtpTEUADg`
       const res = await axios.get(url);
       console.log(res.data);
-  
-      // try {
-      //   const res = await axios.get(url, config);
-      //   console.log(res.data);
-      // } catch (error) {
-      //   console.log(error);
-      // }
     }
     fetchData()
   }, [])
@@ -45,7 +26,7 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/home' componet={HomePage}/>
+        <Route path='/' elements={HomePage}/>
         <Route />
       </Routes>
       
