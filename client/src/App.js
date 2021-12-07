@@ -27,7 +27,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='' elemnet={<LoadCarData/>} />
+        <Route path='./carIndex' elemnet={<LoadCarData/>} />
         <Route/>
       </Routes>
       

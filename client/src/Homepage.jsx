@@ -1,15 +1,16 @@
 import React from 'react'
-import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import LoadCarData from './carIndex'
 
-function HomePage() {
+
+function HomePage(props) {
   return (
     <div>
     <h1>Welcome to Traffic Jam!</h1>
 
       <p>Traffiv Jam the Game</p>
   
-      <p> <Route path='/carIndex.jsx' elements={<LoadCarData/>}/>Check out some Cool cars</p>
+      <Link to={<LoadCarData/>}><p>Check out some Cool cars</p></Link>
 
     </div>
   )

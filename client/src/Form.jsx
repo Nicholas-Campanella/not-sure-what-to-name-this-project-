@@ -1,4 +1,12 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
+
+function InputCar() {
+  const [input, setInput] = useState('')
+  useEffect(() => {
+    
+  })
+}
 
 function AddCarData() {
   return (
@@ -8,7 +16,7 @@ function AddCarData() {
       <input type='text' placeholder='Year'/>
       <input type="text" placeholer='Status'/>
       <input type='image' placeholder='Image'/>
-      <input type= 'button' placeholder='Upload'/>
+      <button>Upload</button>
     </form>
   );
 }
