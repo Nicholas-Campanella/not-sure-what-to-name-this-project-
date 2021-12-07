@@ -26,8 +26,9 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/' elements={HomePage}/>
-        <Route />
+        <Route path='/' element={HomePage}/>
+        <Route path='' elemnet={LoadCarData, addCarData} />
+        <Route/>
       </Routes>
       
     </div>
