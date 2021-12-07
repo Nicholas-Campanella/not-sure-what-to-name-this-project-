@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar'
+import Navbar1 from './Navbar'
+import Navbar2 from './Navbar2'
 import Footer from './Footer'
 import addCarData from './Form'
 import axios from 'axios'
 import { useEffect } from 'react'
 import LoadCarData from './carIndex'
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './Homepage'
+
  
 // const base = process.env.REACT_APP_AIRTABLE_BASE
 // const key = process.env.REACT_APP_AIRTABLE_KEY
@@ -40,10 +43,12 @@ function App() {
   
   return (
     <div className="App">
+
       <Routes>
-        <Route path='/' element='div'/>
+        <Route path='/home' componet={HomePage}/>
         <Route />
-     </Routes>
+      </Routes>
+      
     </div>
   );
 }
