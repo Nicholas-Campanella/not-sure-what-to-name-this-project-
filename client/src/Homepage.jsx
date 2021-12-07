@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'react-router-dom'
+import LoadCarData from './carIndex'
 
 function HomePage() {
   return (
@@ -7,7 +9,7 @@ function HomePage() {
 
       <p>Traffiv Jam the Game</p>
   
-      <p>Check out some Cool cars</p>
+      <p> <Route path='/carIndex.jsx' elements={<LoadCarData/>}/>Check out some Cool cars</p>
 
     </div>
   )

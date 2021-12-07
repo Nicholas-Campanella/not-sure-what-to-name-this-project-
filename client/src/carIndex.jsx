@@ -1,10 +1,8 @@
 import React from 'react'
 import fetchData from './App.js'
 import { useState } from 'react'
+import AddCarData from './Form.jsx'
 
-// function BringInCarData(props) {
-//   const [CarCard, setCarCard]= useState([])  
-// }
 
 function LoadCarData (props){
 
