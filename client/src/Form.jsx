@@ -8,7 +8,7 @@ function InputCar() {
   })
 }
 
-function AddCarData() {
+function Form() {
   return (
     <form>
       <input type='text' placeholder='Make'/>
@@ -21,4 +21,4 @@ function AddCarData() {
   );
 }
 
-export default AddCarData
+export default Form

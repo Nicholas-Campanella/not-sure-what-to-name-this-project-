@@ -1,24 +1,29 @@
 import React from 'react'
-import fetchData from './App.js'
+
 import { useState, useEffect } from 'react'
-import AddCarData from './Form.jsx'
+import Form from './Form.jsx'
 import { Link } from 'react-router-dom'
 
 
-function LoadCarData (props){
+function CarIndex ({cars}){
 
     return (
       <div>
-        <h2 classname='carMakeAnModel'>{props.fields.make} {props.fields.model}</h2>
+        {cars.map((car) => (
+          <div className='carCard'>
+          <h5 className='carMakeAnModel'>{car.fields.make} {car.fields.model}</h5>
 
-        <img classname='carImg'
-          src={props.image['0'].thumbnails.small}/>
-
-        <h3 classname='year'>{props.fields.year}</h3>
-      <AddCarData/>
+          <img className='carImg'
+            src={car.fields.image[0].thumbnails.small.url}/>
+  
+            <h3 className='year'>{car.fields.year}</h3>
+          </div>
+        ))}
+        
+      <Form/>
       </div>
     )
   }
 
 
-export default LoadCarData
+export default CarIndex

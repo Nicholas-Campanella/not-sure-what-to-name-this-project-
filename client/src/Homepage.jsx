@@ -6,11 +6,11 @@ import LoadCarData from './CarIndex'
 function HomePage(props) {
   return (
     <div>
-    <h1>Welcome to Traffic Jam!</h1>
+    <h1 className= 'Hph1'>Welcome to Traffic Jam!</h1>
 
-      <p>Traffiv Jam the Game</p>
+      <p className='Hpp'>Traffiv Jam the Game</p>
   
-      <Link to={<LoadCarData/>}><p>Check out some Cool cars</p></Link>
+      <Link to={'/CarIndex'}><p className='Hpp'>Check out some Cool cars</p></Link>
 
     </div>
   )
