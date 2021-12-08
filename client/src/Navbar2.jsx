@@ -7,10 +7,10 @@ function Navbar2() {
     <header>
       
       <nav>
-        <h1>Traffic Jam Car Index</h1>
+        <h1 className='navBarH1'>Traffic Jam Car Index</h1>
           <ul>
-            <li>Traffic Jam the Game </li>
-            <li><Link to={'/'}>Home</Link></li>
+            {/* <li className='Hpli'><Link to={'/'}>Traffic Jam the Game</Link> </li> */}
+            <li className='Hpli'><Link to={'/'}>Home</Link></li>
       </ul>
       </nav>
     </header>

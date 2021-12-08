@@ -94,6 +94,29 @@ The app will display the vichels that the developer has own and the user will ha
 ## Code Snippet
 
 ```
+function CarIndex ({cars}){
+
+  return (
+
+
+
+        <div className='carForm'>
+          <Navbar2/>
+          {cars.map((car) => (
+          <div className='carCard'>
+            <h5 className='carMakeAnModel'>{car.fields.make} {car.fields.model}</h5>
+
+            <img className='carImg'
+              src={car.fields.image} />
+
+             <h3 className='year'>{car.fields.year}</h3>
+          </div>
+          ))}
+
+        <Form />
+
+    </div>
+    )}
 
 ```
 

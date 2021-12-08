@@ -2,14 +2,15 @@
   text-align: center;
   height: 100vh;
   background-color: #fcfc02;
+  color: red;
 }
 .Hpli {
   display: inline;
   padding: 20px;
   border: solid 2px;
-  border-radius: 100%;
+  border-radius: 100px;
   margin: 20px;
-  color: black;
+  color: red;
   text-decoration: none;
 }
 .Hph1 {
@@ -22,12 +23,14 @@
   background-color: #fcfc02;
   display: grid;
   grid-template-areas:
-    "L T R"
-    "L I R"
-    "L Y R";
+    "L L L T R R R"
+    "L L L I R R R"
+    "L L L Y R R R";
   border-radius: 14px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 .carform {
@@ -39,11 +42,10 @@
   text-decoration: none;
   display: inline;
   border: solid 1px black;
-}
-.footerLI {
-  display: inline;
-  padding: 20px;
 } */
+.footerLI {
+  padding: 20px;
+}
 ul {
   display: inline;
   text-decoration: none;
@@ -65,7 +67,10 @@ ul {
   background: url();
   border: solid 2px;
   border-radius: 14px;
-  margin: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 20px;
   justify-content: space-between;
 }
@@ -79,4 +84,7 @@ body {
 }
 .Input {
   border-radius: 12px;
+}
+.navBarH1 {
+  margin: 40px;
 }

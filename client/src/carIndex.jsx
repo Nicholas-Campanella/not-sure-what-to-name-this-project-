@@ -1,10 +1,7 @@
 import React from 'react'
-
-import { useState, useEffect } from 'react'
 import Form from './Form.jsx'
-import { Link } from 'react-router-dom'
 import Navbar2 from './Navbar2.jsx'
-import Footer from './Footer.jsx'
+
 
 
 function CarIndex ({cars}){
