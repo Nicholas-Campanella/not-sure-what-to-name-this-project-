@@ -72,3 +72,11 @@ ul {
 body {
   background-color: #fcfc02;
 }
+.Button {
+  background: #ff0000;
+  color: white;
+  border-radius: 12px;
+}
+.Input {
+  border-radius: 12px;
+}

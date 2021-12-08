@@ -13,12 +13,12 @@ function Form() {
     <div>
       <h4>Upload a car to the Index</h4>
     <form className='carInput'>
-      <input type='text' placeholder='Make'/>
-      <input type='text' placeholder='Model'/>
-      <input type='text' placeholder='Year'/>
+      <input className='Input' type='text' placeholder='Make'/>
+      <input className='Input' type='text' placeholder='Model'/>
+      <input className='Input' type='text' placeholder='Year'/>
       {/* <input type="text" placeholer='Status'/> */}
-      <input type='url' placeholder= 'Image'/>
-      <button>Upload</button>
+      <input className='Input' type='url' placeholder= 'Image URL'/>
+      <button className='Button'>Upload</button>
       </form>
       </div> 
   );
