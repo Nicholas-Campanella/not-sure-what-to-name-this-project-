@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: #fcfc02;
 }
-.Hpp {
+.Hpli {
   display: inline;
   padding: 20px;
   border: solid 2px;
@@ -18,5 +18,26 @@
 }
 .carCard {
   border: solid 2px;
-  padding: 5px;
+  /* padding: 5px; */
+  background-color: #fcfc02;
+}
+
+.carform {
+  display: grid;
+  background-color: #fcfc02;
+}
+/* .footerUL {
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border: solid 1px black;
+}
+.footerLI {
+  display: inline;
+  padding: 20px;
+} */
+ul {
+  display: inline;
+  text-decoration: none;
+  color: #0000;
 }

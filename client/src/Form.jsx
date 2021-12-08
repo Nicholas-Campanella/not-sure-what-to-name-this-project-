@@ -14,8 +14,8 @@ function Form() {
       <input type='text' placeholder='Make'/>
       <input type='text' placeholder='Model'/>
       <input type='text' placeholder='Year'/>
-      <input type="text" placeholer='Status'/>
-      <input type='image' placeholder='Image'/>
+      {/* <input type="text" placeholer='Status'/> */}
+      <input type='url' placeholder= 'Image'/>
       <button>Upload</button>
     </form>
   );

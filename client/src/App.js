@@ -8,7 +8,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import CarIndex from './CarIndex'
 import { Route, Routes } from 'react-router-dom'
-import HomePage from './Homepage'
+import HomePage from './HomePage'
 import {getCars} from './services/ApiData'
 
 
@@ -30,9 +30,10 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/CarIndex' element={<CarIndex cars={cars}/>}  />
-        <Route/>
+        <Route />
+        
       </Routes>
-      
+      <Footer/>
     </div>
   );
 }

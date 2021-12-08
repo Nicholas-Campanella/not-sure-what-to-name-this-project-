@@ -16,4 +16,4 @@ function Navbar1 () {
 }
   
 
-export default Navbar1()
+export default Navbar1
