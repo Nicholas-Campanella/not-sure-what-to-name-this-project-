@@ -20,7 +20,7 @@ function CarIndex ({cars}){
             <h5 className='carMakeAnModel'>{car.fields.make} {car.fields.model}</h5>
 
             <img className='carImg'
-              src={car.fields.image[0].thumbnails.small.url} />
+              src={car.fields.image} />
   
              <h3 className='year'>{car.fields.year}</h3>
           </div>

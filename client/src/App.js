@@ -1,10 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar1 from './Navbar'
-import Navbar2 from './Navbar2'
 import Footer from './Footer'
-import addCarData from './Form'
-import axios from 'axios'
 import { useEffect, useState } from 'react'
 import CarIndex from './CarIndex'
 import { Route, Routes } from 'react-router-dom'

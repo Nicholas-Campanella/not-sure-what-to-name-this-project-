@@ -20,6 +20,14 @@
   border: solid 2px;
   /* padding: 5px; */
   background-color: #fcfc02;
+  display: grid;
+  grid-template-areas:
+    "L T R"
+    "L I R"
+    "L Y R";
+  border-radius: 14px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .carform {
@@ -40,4 +48,27 @@ ul {
   display: inline;
   text-decoration: none;
   color: #0000;
+}
+.carMakeAnModel {
+  grid-area: T;
+}
+.carImg {
+  grid-area: I;
+}
+.year {
+  grid-area: Y;
+}
+.carInput {
+  padding: 40px;
+}
+.footerDiv {
+  background: url();
+  border: solid 2px;
+  border-radius: 14px;
+  margin: 40px;
+  padding: 20px;
+  justify-content: space-between;
+}
+body {
+  background-color: #fcfc02;
 }

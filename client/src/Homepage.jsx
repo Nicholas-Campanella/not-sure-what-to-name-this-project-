@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import LoadCarData from './CarIndex'
-import Footer from './Footer'
+
 
 
 function HomePage(props) {
@@ -9,9 +8,9 @@ function HomePage(props) {
     <div>
     <h1 className= 'Hph1'>Welcome to Traffic Jam!</h1>
        <ul>
-      <li className='Hpli'>Traffiv Jam the Game</li>
+      <li className='Hpli'>Traffic Jam Game!</li>
   
-      <li className='Hpli'><Link to={'/CarIndex'}>Check out some Cool cars</Link></li>
+      <li className='Hpli'><Link to={'/CarIndex'}>Look at Cool Cars</Link></li>
        </ul>
       
     </div>

@@ -6,10 +6,10 @@ function Footer (){
  
     return(
       <div className='footerDiv'>
-      <ul className='footerUL'>
-        <li className='footerLI'><Link to='https://github.com/Nicholas-Campanella'>Git Hub</Link></li>
-        <li className='footerLI'><Link to='https://www.linkedin.com/in/nicholas-campanella1996/'>LinkedIn</Link></li>
-      </ul>
+      
+        <Link to='https://github.com/Nicholas-Campanella'><img className='footerLI' src='https://i.imgur.com/iQ359Ik.png?1'/></Link>
+        <Link to='https://www.linkedin.com/in/nicholas-campanella1996/'><img className='footerLI' src='https://i.imgur.com/yIpQIO0.png?1'/></Link>
+     
       </div>
     )
   }

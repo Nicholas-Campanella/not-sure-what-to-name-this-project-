@@ -42,13 +42,13 @@ The app will display the vichels that the developer has own and the user will ha
 ### MVP/PostMVP
 
 -add an aminations
+-and an interactive game
 
 #### MVP
 
 -ablity to add cars to api through app
 -conect to air table api
 -have a page that displays all the cars and data
--have simple interactive game
 
 ## Project Schedule
 

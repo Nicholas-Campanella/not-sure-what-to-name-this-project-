@@ -10,14 +10,17 @@ function InputCar() {
 
 function Form() {
   return (
-    <form>
+    <div>
+      <h4>Upload a car to the Index</h4>
+    <form className='carInput'>
       <input type='text' placeholder='Make'/>
       <input type='text' placeholder='Model'/>
       <input type='text' placeholder='Year'/>
       {/* <input type="text" placeholer='Status'/> */}
       <input type='url' placeholder= 'Image'/>
       <button>Upload</button>
-    </form>
+      </form>
+      </div> 
   );
 }
 
