@@ -2,7 +2,7 @@ import React from 'react'
 import fetchData from './App.js'
 import { useState, useEffect } from 'react'
 import AddCarData from './Form.jsx'
-
+import { Link } from 'react-router-dom'
 
 
 function LoadCarData (props){
@@ -15,7 +15,7 @@ function LoadCarData (props){
           src={props.image['0'].thumbnails.small}/>
 
         <h3 classname='year'>{props.fields.year}</h3>
-      <Form/>
+      <AddCarData/>
       </div>
     )
   }

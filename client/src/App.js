@@ -6,7 +6,7 @@ import Footer from './Footer'
 import addCarData from './Form'
 import axios from 'axios'
 import { useEffect } from 'react'
-import LoadCarData from './carIndex'
+import LoadCarData from './CarIndex'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './Homepage'
 
@@ -27,7 +27,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='./carIndex' elemnet={<LoadCarData/>} />
+        <Route path='./carIndex' element={<LoadCarData/>} />
         <Route/>
       </Routes>
       
