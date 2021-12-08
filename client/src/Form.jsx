@@ -1,12 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 
-// function InputCar() {
-//   const [input, setInput] = useState('')
-//   useEffect(() => {
-    
-//   })
-// }
+
 
 function Form() {
   return (
